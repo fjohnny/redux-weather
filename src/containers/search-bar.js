@@ -27,7 +27,7 @@ export class SearchBar extends Component {
 
    render () {
      return (
-         <form className="form-inline mt-2" onSubmit={this.onFormSubmit}>
+         <form className="form-inline mt-2 mb-2" onSubmit={this.onFormSubmit}>
             <div className="form-group col-sm-10">
                 <input 
                   placeholder="Get a five-day forecast in your favorite city"
